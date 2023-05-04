@@ -1,0 +1,64 @@
+.darkColor{
+    position: absolute;  
+    background-color: black;
+    opacity: .5;
+    height: 50rem;
+    width: 100%;
+   
+
+}
+.bgimage{  
+    
+    background-image: url(assets/ba1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+}
+
+.cardHero{
+    text-align: end;
+    width: 40rem; 
+    background-color:transparent;
+    border: none;
+
+}
+
+.oradores h2, .oradores p{
+    text-align: center;
+}
+
+ .imagenPlaya{
+    margin-top: 2rem;
+   /*  position: relative; */
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.playa{
+    /* position: absolute; */
+    /* width: 50%; */
+    height: 100%;
+    background-image: url("assets/honolulu.jpg");
+    background-size: cover;
+    background-position: center;
+    border-right: solid white 1px;
+}
+
+.cardPlaya{
+    text-align:start;
+    line-height: 1.7;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #626060;
+   /*  position: absolute; */
+    top: 0;
+    right: 0;
+}
+
+.footer{
+    background: linear-gradient(to left, #000428, #004e92);
+}
+
+#textoTarjeta{
+    text-align:justify;
+}
