@@ -62,3 +62,30 @@
 #textoTarjeta{
     text-align:justify;
 }
+
+.hide{
+    display: none;
+}
+
+.resultado-error{
+    border: red solid 2px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color:rgb(240, 127, 127) ;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+.container-resultado{
+    border: blue solid 2px;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color:rgb(57, 94, 226) ;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
